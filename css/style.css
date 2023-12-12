@@ -1,0 +1,29 @@
+/*HOJA DE ESTILOS*/
+/*Colores generales
+Gris: #313332
+Amarillo: #E6B707
+Semi blanco: #F8F9FB*/
+
+/*Generales*/
+
+/*Nav bar*/
+.navbar{
+    background-color: #F8F9FB;
+}
+.active{
+    background-color: #E6B707;
+    color: white !important;
+}
+a.nav-link{
+    padding: 36px 25px !important;
+    border-left: 1px solid #dddddd;
+}
+a.nav-link:hover{
+    background-color: #313332;
+    color: white !important;
+}
+.last-border{
+    border-right: 1px solid #dddddd;
+}
+
+/*Media Queries*/
