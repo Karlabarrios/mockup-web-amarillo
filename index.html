@@ -52,44 +52,45 @@
 
     <!--Header-->
     <header>                  
-      <div class="container-fluid p-0">
-          <div>             
-              <!--Contenedor slider-->
-              <div id="carousel1" class="carousel slide p-0" data-bs-ride="carousel">
-                  
-                  <!--Indicadores-->
-                  <ol class="carousel-indicators">
-                      <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
-                      <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
-                      <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
-                  </ol>
-                  
-                  <!--Imágenes o contenidos de slides-->
-                  <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <img src="https://picsum.photos/800/300?random=1" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                          <img src="https://picsum.photos/800/300?random=2" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                          <img src="https://picsum.photos/800/300?random=3" class="d-block w-100" alt="...">
-                      </div>
-                  </div>
-                  
-                  <!--Flecha anterior-->
-                  <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                      <span class="visually-hidden">Previous</span>
-                  </a>
-                  
-                  <!--Flecha suiguiente-->
-                  <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                      <span class="visually-hidden">Next</span>
-                  </a>
-              </div>
+      <div class="container-fluid">
+          <!--Div vacio que contiene el contenedor del slider-->
+          <div>
+              <!--Contenedor slider-->   
+              <div id="carouselExampleIndicators" class="carousel slide">
 
+                <!--Indicadores (botones de abajo)-->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <!--Imágenes o contenido de slides-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+
+                <!--Flechas-->
+                <!--Flecha Izquierda-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <!--Flecha Derecha-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           </div>
       </div>
     </header>
