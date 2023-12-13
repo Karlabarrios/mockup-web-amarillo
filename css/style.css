@@ -1,10 +1,15 @@
 /*HOJA DE ESTILOS*/
 /*Colores generales
-Gris: #313332
+Gris fuerte: #313332
 Amarillo: #E6B707
-Semi blanco: #F8F9FB*/
+Semi blanco nav: #F8F9FB
+Gris secc 3: #F1F3EE*/
 
 /*Generales*/
+h2{
+    font-weight: 700;
+    font-size: 34px;
+}
 
 /*Nav bar*/
 .navbar{
@@ -12,15 +17,16 @@ Semi blanco: #F8F9FB*/
 }
 .active{
     background-color: #E6B707;
-    color: white !important;
+    color: #F8F9FB !important;
 }
 a.nav-link{
     padding: 36px 25px !important;
     border-left: 1px solid #dddddd;
+    font-weight: 500;
 }
 a.nav-link:hover{
     background-color: #313332;
-    color: white !important;
+    color: #F8F9FB !important;
 }
 .last-border{
     border-right: 1px solid #dddddd;
@@ -32,7 +38,91 @@ a.nav-link:hover{
 /*Section Create*/
 .create{
     background-color: #E6B707;
+    background-image: url(../imagenes/separador1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
     color: white;
+}
+
+/*Section Features*/
+.features{
+    padding: 60px 14% 160px 14%;
+    background-image: url(../imagenes/separador2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.features img{
+    width: 140px;
+    margin: 20px;
+}
+.features p{
+    color: #a9a9a9;
+}
+
+/*Section Work*/
+.work{
+    background-color: #F1F3EE;
+    padding: 60px 14% 100px 14%;
+    background-image: url(../imagenes/separador3.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/*Section Last-story*/
+.last-story{
+    padding: 60px 14% 160px 14%;
+    background-image: url(../imagenes/separador4.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.last-story p{
+    margin: 0;
+}
+.last-story img{
+    width: 100%;
+}
+.linea-amarilla{
+    background-color: #E6B707;
+}
+.story-text{
+    color: white;
+    font-weight: 400;
+}
+
+/*Section Gráficas*/
+.graficas{
+    padding: 60px 14% 60px 14%;
+    background-color: #E6B707;
+}
+.graficas img{
+    width: 140px;
+}
+.graficas p{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+/*Footer*/
+footer{
+    padding: 30px 14% 50px 14%;
+    background-color: #313332;
+    color: white;
+}
+footer p{
+    font-size: 14px;
+    display: inline-block;
+}
+footer hr{
+    margin: 0;
+}
+.middle p{
+    margin: 0;
+    padding: 5px 0 5px 20px;
+}
+footer img{
+    width: 20px;
 }
 
 /*Media Queries*/
