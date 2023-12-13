@@ -6,7 +6,15 @@
     <title>MockUp Amarillo</title>
     <meta name="description" content="Explora nuestro sitio web innovador que ofrece contenido diverso, productos de calidad y experiencias únicas. Descubre lo mejor en un solo lugar.">
     <!--Favicon-->
-
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <!--Link CSS Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--Link CSS Main-->
@@ -223,12 +231,12 @@
     <footer>
       <div class="container">
         <div class="row justify-content-center">
-
+          <!--about us-->
           <div class="col-12 col-md-6 col-xl-4 px-4 py-3">
             <h3>ABOUT US</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore provident iste quidem a, molestias explicabo totam quo nobis suscipit voluptas eos quaerat error accusamus, distinctio, alias autem cumque aspernatur consequuntur?</p>
           </div>
-
+          <!--quick links-->
           <div class="middle col-12 col-md-6 col-xl-4 px-4 py-3">
             <h3>QUICK LINKS</h3>
             <img src="imagenes/lista-img.png" alt="lista-dot">
@@ -246,9 +254,15 @@
             <img src="imagenes/lista-img.png" alt="lista-dot">
             <p>TYPOGRAPHY</p>
           </div>
+          <!--Alternativa: colocar img y parrafo en columnas respectivas y ponerles borde unicamente en la parte inferior a excepción del último elemento-->
 
+
+          <!--get in touch-->
           <div class="getin col-12 col-md-6 col-xl-4 px-4 py-3">
-            <h3>GET IN TOUCH</h3>
+            <h3>GET IN TOUCH</h3>        
+            <!--¿Es necesario crear un nuevo container al momento de hacer nuevas filas dentro de una columna?-->
+            <!--Opción 1 DESCARTADA
+
             <div class="container">
               <div class="row">
                 <div class="col p-0">
@@ -270,8 +284,35 @@
                   <p>freepik@sitename.com</p>
                 </div>
               </div>
-            </div>
+            </div-->
 
+            <!--Opción 2-->
+            <div class="row align-content-center">
+              <div class="col-1">
+                <img src="imagenes/casa.png" alt="casa-img">
+              </div>
+              <div class="col">
+                <p>66 South Steet,<br>Window 6 Wonderland,</p>
+              </div>
+            </div>
+  
+            <div class="row align-content-center">
+              <div class="col-1">
+                <img src="imagenes/cel.png" alt="cel-img">
+              </div>
+              <div class="col">
+                <p>+440 875369208 - Office<br>+440 353363114 - Fax</p>
+              </div>
+            </div>
+              
+            <div class="row align-content-center">
+              <div class="col-1">
+                <img src="imagenes/mail.png" alt="mail-img">
+              </div>
+              <div class="col">
+                <p>freepik@sitename.com</p>
+              </div>
+            </div>
           </div>
 
         </div>

@@ -128,10 +128,14 @@ footer hr{
     padding: 5px 0 5px 20px;
 }
 .getin p{
+    padding-left: 20px;
+}
+/*.getin p{
     margin: 0;
     padding-left: 20px;
     padding-bottom: 8px;
     vertical-align: middle;
-}
+}*/
+
 
 /*Media Queries*/
