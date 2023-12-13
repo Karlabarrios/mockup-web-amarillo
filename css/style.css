@@ -110,12 +110,15 @@ footer{
     background-color: #313332;
     color: white;
 }
-footer img{
-    width: 20px;
-}
 footer p{
     font-size: 14px;
     display: inline-block;
+}
+footer h3{
+    padding-bottom: 12px;
+}
+footer img{
+    width: 20px;
 }
 footer hr{
     margin: 0;
@@ -128,6 +131,7 @@ footer hr{
     margin: 0;
     padding-left: 20px;
     padding-bottom: 8px;
+    vertical-align: middle;
 }
 
 /*Media Queries*/
