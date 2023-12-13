@@ -110,6 +110,9 @@ footer{
     background-color: #313332;
     color: white;
 }
+footer img{
+    width: 20px;
+}
 footer p{
     font-size: 14px;
     display: inline-block;
@@ -121,8 +124,10 @@ footer hr{
     margin: 0;
     padding: 5px 0 5px 20px;
 }
-footer img{
-    width: 20px;
+.getin p{
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 8px;
 }
 
 /*Media Queries*/
