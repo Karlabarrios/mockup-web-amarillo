@@ -120,22 +120,20 @@ footer h3{
 footer img{
     width: 20px;
 }
-footer hr{
-    margin: 0;
+footer .bi-chevron-right{
+    color: #E6B707;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-right: 20px;
 }
-.middle p{
-    margin: 0;
-    padding: 5px 0 5px 20px;
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
 .getin p{
     padding-left: 20px;
 }
-/*.getin p{
-    margin: 0;
-    padding-left: 20px;
-    padding-bottom: 8px;
-    vertical-align: middle;
-}*/
-
-
-/*Media Queries*/
