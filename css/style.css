@@ -10,6 +10,9 @@ h2{
     font-weight: 700;
     font-size: 34px;
 }
+a{
+    text-decoration: none;
+}
 
 /*Nav bar*/
 .navbar{
@@ -120,6 +123,9 @@ footer h3{
 footer img{
     width: 20px;
 }
+footer a{
+    color: white;
+}
 footer .bi-chevron-right{
     color: #E6B707;
     font-size: 12px;
@@ -129,10 +135,6 @@ footer .bi-chevron-right{
 footer ul{
     list-style: none;
     padding-left: 0;
-}
-footer a{
-    text-decoration: none;
-    color: white;
 }
 .getin p{
     padding-left: 10px;
@@ -147,4 +149,10 @@ footer a{
 }
 .getin .row{
     margin-bottom: 8px;
+}
+
+/*FancyBox*/
+.fancybox__caption{
+    font-size: 22px;
+    font-weight: 800;
 }
